@@ -26,7 +26,10 @@ The system uses a feedforward neural network that evolves over consecutive gener
 ### Fitness Function
 
 The fitness logic avoids complex heuristics and relies purely on survival time scaled by the environment execution speed:
-$$\text{Fitness} = (\text{Time}_\text{death} - \text{Time}_\text{spawn}) \times \text{game\_speed}$$
+
+```text
+Fitness = (Time_death - Time_spawn) * game_speed
+```
 
 ### Convergence & Training
 
