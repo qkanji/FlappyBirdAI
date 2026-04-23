@@ -9,8 +9,8 @@ clock = pygame.time.Clock()
 screen = pygame.display.set_mode((600, 700))
 screen.fill("green")
 
-player = Player(screen)
 pipe_manager = PipeManager(screen)
+player = Player(screen, pipe_manager)
 
 while player.alive:
     for event in pygame.event.get():
