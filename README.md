@@ -4,7 +4,7 @@
 
 An autonomous agent that learns to play Flappy Bird using NeuroEvolution of Augmenting Topologies (NEAT), built entirely in Python.
 
-[Insert Demo GIF / Video Recording Here]
+https://github.com/user-attachments/assets/d2221b99-8e07-4773-82ec-0869aa66c03c
 
 ## Background
 
